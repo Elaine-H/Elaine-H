@@ -21,5 +21,4 @@ Animate CSS
 https://daneden.github.io/animate.css/
 
 OwlCarousel
-
 http://www.owlcarousel.owlgraphic.com/
