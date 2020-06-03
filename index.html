@@ -19,6 +19,8 @@ https://vegas.jaysalvat.com/
 
 Caption Hover Effects
 http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
+
+
 -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
@@ -29,6 +31,10 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/vegas.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
 
   <!-- Google web font  -->
 
@@ -85,7 +91,8 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
           <p class="wow fadeInUp" data-wow-delay="0.9s">喜歡思考和「人」有關的問題，因此踏入UX的世界。
             <br>短期目標是從PM著手，累積用戶需求研究與產品規劃經驗。</br>夢想成為一隻UX獨角獸；正自學相關課程及前端網頁開發。
           </p>
-          <input type="button" onclick="javascript:location.href='#about'" class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s" value="My story"></input>
+          <input type="button" onclick="javascript:location.href='#about'"
+            class="smoothScroll btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s" value="My story"></input>
         </div>
 
       </div>
@@ -196,7 +203,20 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <ul class="grid cs-style-4">
           <li class="col-md-12 col-sm-12">
             <figure>
-              <div><img src="photo/project_ntume.gif" alt="ux"></div>
+              <div>
+                <ul class="project_container">
+                  <li><img src="photo/project_APP展示/project_00.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_01.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_02.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_03.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_04.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_05.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_06.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_07.png" alt=""></li>
+                  <li><img src="photo/project_APP展示/project_08.png" alt=""></li>
+                </ul>
+              </div>
+
               <figcaption>
                 <h1>NTU & ME <small>for 2019 CHISDC</small></h1>
                 <div class="paragraph">
@@ -297,7 +317,10 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
   <script src="js/wow.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
-
+  <script src="js/slick.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script>
+    $('.project_container').slick()
   </script>
 
 </body>
