@@ -38,7 +38,7 @@ $(document).ready(function () {
           src: 'photo/slide_02.jpg'
         },
         {
-          src: 'photo/slide_03.jpg'
+          src: 'photo/Slide_03.jpg'
         }
       ],
       timer: false,
