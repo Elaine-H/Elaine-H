@@ -22,40 +22,40 @@ $(function () {
                 paly = false;
                 alert("推薦你喝" + arr[ok] + "，來看看酒單吧~");
                 if (eval(ok) == 1) {
-                    window.location.replace("beer.html");
+                    window.location.href = "beer.html";
                 }
                 if (eval(ok) == 2) {
-                    window.location.replace("coffeeliqueur.html");
+                    window.location.href = "coffeeliqueur.html";
                 }
                 if (eval(ok) == 3) {
-                    window.location.replace("rum.html");
+                    window.location.href = "rum.html";
                 }
                 if (eval(ok) == 4) {
-                    window.location.replace("redwine.html");
+                    window.location.href = "redwine.html";
                 }
                 if (eval(ok) == 5) {
-                    window.location.replace("gin.html");
+                    window.location.href = "gin.html";
                 }
                 if (eval(ok) == 6) {
-                    window.location.replace("whiskey.html");
+                    window.location.href = "whiskey.html";
                 }
                 if (eval(ok) == 7) {
-                    window.location.replace("vodka.html");
+                    window.location.href = "vodka.html";
                 }
                 if (eval(ok) == 8) {
-                    window.location.replace("water.html");
+                    window.location.href = "water.html";
                 }
                 if (eval(ok) == 9) {
-                    window.location.replace("tequila.html");
+                    window.location.href = "tequila.html";
                 }
                 if (eval(ok) == 10) {
-                    window.location.replace("whitewine.html");
+                    window.location.href = "whitewine.html";
                 }
                 if (eval(ok) == 11) {
-                    window.location.replace("baileys.html");
+                    window.location.href = "baileys.html";
                 }
                 if (eval(ok) == 12) {
-                    window.location.replace("brandy.html");
+                    window.location.href = "brandy.html";
                 }
             }, 500);
 
