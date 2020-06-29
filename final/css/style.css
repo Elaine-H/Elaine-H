@@ -1,0 +1,112 @@
+/*背景*/
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(107.41deg, rgba(255, 237, 11, 0.6) 7.88%, rgba(255, 11, 113, 0.3675) 100.61%);
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*整個轉盤樣式*/
+#lottery {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+
+#lottery div {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+/*每方格樣式*/
+#lottery p {
+
+    font-family: Noto Sans TC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+
+}
+
+#lottery .cent {
+    background: transparent;
+}
+
+#lottery .beer {
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 8px 0px 0px 0px;
+}
+
+#lottery .redwine {
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 0px 8px 0px 0px;
+}
+
+#lottery .whitewine {
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 0px 0px 0px 8px;
+}
+
+#lottery .vodka {
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 0px 0px 8px 0px;
+}
+
+#lottery .coffee,
+.rum,
+.brandy,
+.gin,
+.baileys,
+.whiskey,
+.tequila,
+.water {
+    border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+
+/*轉動時顏色*/
+#lottery div.select {
+    background: #A0D2DB;
+}
+
+
+
+/*開始鍵樣式*/
+#lottery .start {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 200px;
+    width: 200px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.start_p {
+    font-family: Ultra;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 140%;
+    text-align: -webkit-right;
+    margin: 10%;
+    margin-left: 10.5%;
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 0.85);
+}
