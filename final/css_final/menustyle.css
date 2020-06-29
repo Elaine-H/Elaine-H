@@ -12,13 +12,6 @@ body {
 
 }
 
-
-#menu {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%) translateX(9%);
-}
-
 #menu .item {
     width: 300px;
     margin: 40px;
