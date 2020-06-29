@@ -1,3 +1,9 @@
+window.onload = function intro() {
+
+    alert('酒吧新手/想不到喝什麼嗎? 先抽個基酒，再看看推薦的常見調酒吧~');
+
+}
+
 $(function () {
     //定義
     var i = null; //初始位置
@@ -10,52 +16,46 @@ $(function () {
     var xq = 0;
     var arr = ["白蘭地", "啤酒", "咖啡酒", "蘭姆酒", "紅酒", "琴酒", "威士忌", "伏特加", "？？？", "龍舌蘭", "白酒", "奶酒", ];
 
-    window.onload = function intro() {
-
-        alert('酒吧新手/想不到喝什麼嗎? 先抽個基酒，再看看推薦的常見調酒吧~');
-
-    }
-
     function dong() {
         if (nowcount > count) {
             setTimeout(function () {
                 paly = false;
                 alert("推薦你喝" + arr[ok] + "，來看看酒單吧~");
                 if (eval(ok) == 1) {
-                    window.open("beer.html");
+                    window.location.replace("beer.html");
                 }
                 if (eval(ok) == 2) {
-                    window.open("coffeeliqueur.html");
+                    window.location.replace("coffeeliqueur.html");
                 }
                 if (eval(ok) == 3) {
-                    window.open("rum.html");
+                    window.location.replace("rum.html");
                 }
                 if (eval(ok) == 4) {
-                    window.open("redwine.html");
+                    window.location.replace("redwine.html");
                 }
                 if (eval(ok) == 5) {
-                    window.open("gin.html");
+                    window.location.replace("gin.html");
                 }
                 if (eval(ok) == 6) {
-                    window.open("whiskey.html");
+                    window.location.replace("whiskey.html");
                 }
                 if (eval(ok) == 7) {
-                    window.open("vodka.html");
+                    window.location.replace("vodka.html");
                 }
                 if (eval(ok) == 8) {
-                    window.open("water.html");
+                    window.location.replace("water.html");
                 }
                 if (eval(ok) == 9) {
-                    window.open("tequila.html");
+                    window.location.replace("tequila.html");
                 }
                 if (eval(ok) == 10) {
-                    window.open("whitewine.html");
+                    window.location.replace("whitewine.html");
                 }
                 if (eval(ok) == 11) {
-                    window.open("baileys.html");
+                    window.location.replace("baileys.html");
                 }
                 if (eval(ok) == 12) {
-                    window.open("brandy.html");
+                    window.location.replace("brandy.html");
                 }
             }, 500);
 
