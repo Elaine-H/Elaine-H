@@ -10,6 +10,12 @@ $(function () {
     var xq = 0;
     var arr = ["白蘭地", "啤酒", "咖啡酒", "蘭姆酒", "紅酒", "琴酒", "威士忌", "伏特加", "？？？", "龍舌蘭", "白酒", "奶酒", ];
 
+    window.onload = function intro() {
+
+        alert('酒吧新手/想不到喝什麼嗎? 先抽個基酒，再看看推薦的常見調酒吧~');
+
+    }
+
     function dong() {
         if (nowcount > count) {
             setTimeout(function () {
