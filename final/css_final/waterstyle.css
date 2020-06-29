@@ -21,12 +21,10 @@ body {
 }
 
 #water .item {
-    width: 320px;
+    width: 300px;
     margin: 40px;
     display: block;
     opacity: 90%;
-    float: left;
-
 }
 
 
